@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sample-app"
+version = "0.1.0"
+description = ""
+authors = ["Lennox Stevenson <lennox@cobrand.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dateutil = "^2.9.0.post0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
